@@ -6,8 +6,7 @@ import 'package:sirat_el_mustaqim/model/bacaanshalat.dart';
 import 'package:sirat_el_mustaqim/model/doaharian.dart';
 import 'package:sirat_el_mustaqim/model/kisahnabi.dart';
 import 'package:sirat_el_mustaqim/model/niatshalat.dart';
-
-String baseUrl = 'https://islamic-api-zhirrr.vercel.app';
+import 'package:sirat_el_mustaqim/service/baseurl.dart';
 
 class AsmaAllah {
   static Future<List<AsmaulHusna>> getData() async {
